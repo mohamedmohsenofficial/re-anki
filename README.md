@@ -1,4 +1,4 @@
-# Re-Anki – Smart, Beautiful & Science-Backed Templates ✨
+# Re-Anki Cards – Smart, Beautiful & Science-Backed Templates ✨
 
 > Transform your ordinary flashcards into a **premium learning experience** ✨.  
 > Backed by **cognitive science** 🧠, designed with **modern aesthetics** 🎨, and optimized for **real learning impact** 🚀.
@@ -62,10 +62,11 @@ Forget "Basic" and "Cloze." Our templates have intuitive, inspiring names that c
 
 ---
 # Here are **some** pictures of the cards.
+![Preview 1](https://github.com/mohamedmohsenofficial/re-anki/blob/main/images/20250904_081156_0003%201.gif?raw=true)
 
-![[20250904_081156_0003 1.gif]]
-![[20250904_081035_0002.gif]]
-![[20250904_080438_0001.gif]]
+![Preview 2](https://github.com/mohamedmohsenofficial/re-anki/blob/main/images/20250904_081035_0002.gif?raw=true)
+
+![Preview 3](https://github.com/mohamedmohsenofficial/re-anki/blob/main/images/20250904_080438_0001.gif?raw=true)
 
 ---
 ## 💡 Why This Matters: The Future of Learning?
