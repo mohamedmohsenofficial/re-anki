@@ -7,6 +7,15 @@
 
 ---
 # Let’s Make Anki Awesome for All - Clean, Smart and Ready 🔥🔥
+
+![Preview 1](https://github.com/mohamedmohsenofficial/re-anki/blob/main/Images/20250904_113319_0000.png?raw=true)
+
+![Preview 2](https://github.com/mohamedmohsenofficial/re-anki/blob/main/Images/20250904_113354_0000.png?raw=true)
+
+![Preview 3](https://github.com/mohamedmohsenofficial/re-anki/blob/main/Images/20250904_113424_0000.png?raw=true)
+
+![Preview 4](https://github.com/mohamedmohsenofficial/re-anki/blob/main/Images/20250904_113452_0000.png?raw=true)
+
 ## Why Re-Anki Cards 🚀? 
 
 Traditional Anki templates are **plain and uninspiring**:  
