@@ -149,6 +149,16 @@ Turn boring flashcards into a **scientifically-optimized, visually motivating le
 
 [📥 Download](https://github.com/mohamedmohsenofficial/re-anki/releases) 
 
+## 💖 Support
+
+If you find this card template helpful, consider supporting me!  
+Your support helps keep development active and free for everyone 🌍✨  
+
+- [☕ Buy Me a Coffee](https://www.buymeacoffee.com/awadofficial)  
+- [💸 PayPal](https://www.paypal.me/awadofficial)  
+- [🎁 Patreon](https://www.patreon.com/awadofficial)  
+
+Every little contribution makes a big difference 🙏
 ---
 
 **Created with Mohsen 💙** – Transforming digital learning, one card at a time.
