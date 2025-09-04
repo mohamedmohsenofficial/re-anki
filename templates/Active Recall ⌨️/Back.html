@@ -1,0 +1,63 @@
+<div class="card">
+  <div class="back">
+    <div class="front">{{Front}}</div>
+    <hr id="answer">
+    <div class="answer-text">{{type:Back}}</div>
+  </div>
+</div>
+
+<div class="note-field">{{Notes}}</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+function throwConfetti() {
+  confetti({
+    particleCount: 150,
+    spread: 100,
+    origin: { y: 0.6 },
+    colors: ['#38bdf8','#34d399','#f59e0b','#8b5cf6','#ef4444']
+  });
+}
+
+function sparkleEffect() {
+  for (let i = 0; i < 3; i++) {
+    setTimeout(() => {
+      confetti({
+        particleCount: 30,
+        spread: 45,
+        origin: { x: Math.random(), y: Math.random() * 0.5 },
+        colors: ['#38bdf8','#34d399'],
+        gravity: 0.8,
+        scalar: 0.6
+      });
+    }, i * 200);
+  }
+}
+
+setTimeout(() => {
+  throwConfetti();
+  setTimeout(sparkleEffect, 500);
+}, 300);
+</script>
+
+<a href="https://www.linkedin.com/in/mohsenofficial/" target="_blank" id="mohsen-signature" class="signature">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'The template is disabled due to copyright removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
