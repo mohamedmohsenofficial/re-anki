@@ -6,7 +6,6 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Platform](https://img.shields.io/badge/platform-Anki-red.svg) ![Responsive](https://img.shields.io/badge/design-responsive-orange.svg) ![Dark Mode](https://img.shields.io/badge/theme-dark_mode-black.svg)
 
 ---
-
 # Let’s Make Anki Awesome for All - Clean, Smart and Ready 🔥🔥
 ## Why Re-Anki Cards 🚀? 
 
@@ -62,7 +61,13 @@ Forget "Basic" and "Cloze." Our templates have intuitive, inspiring names that c
 | 🗺️ **Visual Scan**      | Image Occlusion      | Maps, diagrams                | Interactive masking, touch-ready          |
 
 ---
+# Here are **some** pictures of the cards.
 
+![[20250904_081156_0003 1.gif]]
+![[20250904_081035_0002.gif]]
+![[20250904_080438_0001.gif]]
+
+---
 ## 💡 Why This Matters: The Future of Learning?
 
 We're not just making flashcards prettier—we're revolutionizing how the brain interacts with digital learning tools. This project represents a shift from simple information delivery to experience design, combining neuroscience, design psychology, and mobile-first accessibility.
@@ -154,9 +159,9 @@ Turn boring flashcards into a **scientifically-optimized, visually motivating le
 If you find this card template helpful, consider supporting me!  
 Your support helps keep development active and free for everyone 🌍✨  
 
-- [☕ Buy Me a Coffee](https://www.buymeacoffee.com/awadofficial)  
-- [💸 PayPal](https://www.paypal.me/awadofficial)  
-- [🎁 Patreon](https://www.patreon.com/awadofficial)  
+- [☕ Buy Me a Coffee](https://www.buymeacoffee.com/mohsenofficial)  
+- [💸 PayPal](https://www.paypal.me/mohsenofficial)  
+- [🎁 Patreon](https://www.patreon.com/mohsenofficial)  
 
 Every little contribution makes a big difference 🙏
 ---
