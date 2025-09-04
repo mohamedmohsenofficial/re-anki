@@ -1,4 +1,4 @@
-# ✨ Re-Anki – Smart, Beautiful & Science-Backed Templates
+# Re-Anki – Smart, Beautiful & Science-Backed Templates ✨
 
 > Transform your ordinary flashcards into a **premium learning experience** ✨.  
 > Backed by **cognitive science** 🧠, designed with **modern aesthetics** 🎨, and optimized for **real learning impact** 🚀.
@@ -8,7 +8,7 @@
 ---
 
 # Let’s Make Anki Awesome for All - Clean, Smart and Ready 🔥🔥
-## 🚀 Why Re-Anki?
+## Why Re-Anki Cards 🚀? 
 
 Traditional Anki templates are **plain and uninspiring**:  
 ❌ Boring, monochromatic design  
@@ -17,9 +17,9 @@ Traditional Anki templates are **plain and uninspiring**:
 ❌ Unfriendly for RTL languages like Arabic  
 ❌ Generic names that don’t inspire learning
 
-**Re-Anki changes that** 👉 with templates that are:  
+**Re-Anki cards changes that** 👉 with templates that are:  
 ✅ Beautiful, animated, and responsive  
-✅ Optimized for dark mode 🌙  
+✅ Optimized for dark mode 
 ✅ Scientifically backed by **memory research**  
 ✅ Available in English & Arabic (RTL support) 🌍  
 ✅ Fun to use, with **motivating template names & emojis**
@@ -28,7 +28,7 @@ Traditional Anki templates are **plain and uninspiring**:
 
 Because your brain is wired for it.Traditional Anki templates are functional but ignore decades of cognitive science research.
 
-# 🖌️ What Makes The Spark Collection Revolutionary?
+# What Makes The Spark Collection Revolutionary 🖌️?
 
 🧠 Scientifically-Optimized Design
 Our templates aren't just pretty—they're neurologically optimized. The color palette, animations, and typography are all designed to reduce cognitive load and enhance focus, based on established research.
@@ -52,14 +52,14 @@ Forget "Basic" and "Cloze." Our templates have intuitive, inspiring names that c
 
 ## 🎨 Template Collection
 
-|Template Name|Original|Best For|Special Features|
-|---|---|---|---|
-|⚡️ **Quick Recall**|Basic|Vocabulary, facts|Animated reveal + clean transitions|
-|👁️ **Dual Perspective**|Basic + Reverse|Language pairs, concept links|Two-way recall (optimized for mobile)|
-|👨🏼‍💻 **Code Complete**|Type Answer (Coding)|Programming, syntax|Syntax-friendly formatting, terminal look|
-|⌨️ **Active Recall**|Type Answer|Spelling, precise recall|Type-to-reveal with instant feedback|
-|🧩 **Puzzle Piece**|Cloze Deletion|Fill-in-the-blanks|Multiple cloze gaps with animations|
-|🗺️ **Visual Scan**|Image Occlusion|Maps, diagrams|Interactive masking, touch-ready|
+| Template Name            | Original             | Best For                      | Special Features                          |
+| ------------------------ | -------------------- | ----------------------------- | ----------------------------------------- |
+| ⚡️ **Quick Recall**      | Basic                | Vocabulary, facts             | Animated reveal + clean transitions       |
+| 👁️ **Dual Perspective** | Basic + Reverse      | Language pairs, concept links | Two-way recall (optimized for mobile)     |
+| 👨🏼‍💻 **Coder**        | Type Answer (Coding) | Programming, syntax           | Syntax-friendly formatting, terminal look |
+| ⌨️ **Active Recall**     | Type Answer          | Spelling, precise recall      | Type-to-reveal with instant feedback      |
+| 🧩 **Puzzle Piece**      | Cloze Deletion       | Fill-in-the-blanks            | Multiple cloze gaps with animations       |
+| 🗺️ **Visual Scan**      | Image Occlusion      | Maps, diagrams                | Interactive masking, touch-ready          |
 
 ---
 
@@ -106,7 +106,7 @@ We're not just making flashcards prettier—we're revolutionizing how the brain 
 
 ## 📦 Installation
 
-1. [📥 Download the .apkg release](./releases/Re-Anki-v1.apkg)
+1. [📥 Download the .apkg release](https://github.com/mohamedmohsenofficial/re-anki/releases/download/1.0.0/Re-Anki.Cards.apkg)
 2. Open Anki → _Tools → Manage Note Types → Import_
 3. Start creating your new cards
 4. Enjoy the smarter, more beautiful Anki experience 🚀
@@ -127,7 +127,7 @@ This is an open project that thrives on community feedback! Feel free to open an
 
 ---
 
-## 📄 License & Credits
+## License & Credits
 
 This project is under the **MIT License**. It is free to use, modify, and distribute. Education should be powerful and accessible to all.
 
@@ -140,14 +140,14 @@ Acknowledgments:
 - Tested and refined by a community of passionate Anki learners.
 ---
 
-## 🎯 Final Words: Start Your Learning Revolution Today!
+## Final Words: Start Your Learning Revolution Today 🎯!
 
-> _"The difference between ordinary and extraordinary is that little 'extra'."_ – Jimmy Johnson
+> _The difference between ordinary and extraordinary is that little extra_ – Jimmy Johnson
 
 Re-Anki adds that **extra** ✨.  
 Turn boring flashcards into a **scientifically-optimized, visually motivating learning journey**.
 
-[⭐ Star this repo](#) | [📥 Download](#) | [📖 Docs](#)
+[📥 Download](https://github.com/mohamedmohsenofficial/re-anki/releases) 
 
 ---
 
