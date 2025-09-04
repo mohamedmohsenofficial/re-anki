@@ -65,7 +65,7 @@ Forget "Basic" and "Cloze." Our templates have intuitive, inspiring names that c
 
 Here are some previews of the Re-Anki templates in action:
 
-![Preview 1](https://drive.google.com/file/d/1AXqmbCcAtMzQbM8Hwdawai8xZuHo87P4/view?usp=drive_link?raw=true)
+![Preview 1](https://github.com/mohamedmohsenofficial/re-anki/blob/main/Images/20250904_080438_0001.gif?raw=true)
 
 ![Preview 2](https://github.com/mohamedmohsenofficial/re-anki/blob/main/Images/20250904_081035_0002.gif?raw=true)
 
