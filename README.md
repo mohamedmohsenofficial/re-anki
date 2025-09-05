@@ -70,17 +70,6 @@ Forget "Basic" and "Cloze." Our templates have intuitive, inspiring names that c
 | 🗺️ **Visual Scan**      | Image Occlusion      | Maps, diagrams                | Interactive masking, touch-ready          |
 
 ---
-## 🎥 Previews
-
-Here are some previews of the Re-Anki templates in action:
-
-![Preview 1](https://github.com/mohamedmohsenofficial/re-anki/blob/main/Images/20250904_080438_0001.gif?raw=true)
-
-![Preview 2](https://github.com/mohamedmohsenofficial/re-anki/blob/main/Images/20250904_081035_0002.gif?raw=true)
-
-![Preview 3](https://github.com/mohamedmohsenofficial/re-anki/blob/main/Images/20250904_081156_0003.gif?raw=true)
-
----
 ## 💡 Why This Matters: The Future of Learning?
 
 We're not just making flashcards prettier—we're revolutionizing how the brain interacts with digital learning tools. This project represents a shift from simple information delivery to experience design, combining neuroscience, design psychology, and mobile-first accessibility.
@@ -124,7 +113,7 @@ We're not just making flashcards prettier—we're revolutionizing how the brain 
 
 ## 📦 Installation
 
-1. [📥 Download the .apkg release](https://github.com/mohamedmohsenofficial/re-anki/releases/download/1.0.0/Re-Anki.Cards.apkg)
+1. [📥 Download the .apkg release](https://github.com/mohamedmohsenofficial/re-anki/releases)
 2. Open Anki → _Tools → Manage Note Types → Import_
 3. Start creating your new cards
 4. Enjoy the smarter, more beautiful Anki experience 🚀
