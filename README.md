@@ -43,7 +43,7 @@ Traditional Anki templates are boring:
 - Current mode: **Dark Mode only** for an eye-friendly experience  
 - Design evolves: Templates may change based on user suggestions  
 - RTL support: If a bug is reported in the RTL version, fixes are applied only to that version to ensure quality. The two versions may remain visually consistent but fixes differ depending on user reports  
-
+- Contact & Suggestions: If you have any ideas or encounter any issues, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/mohsenofficial) or open an [Issue on GitHub](https://github.com/mohamedmohsenofficial/re-anki/issues).
 ---
 
 ## 🧠 Visual Design & Memory Impact
