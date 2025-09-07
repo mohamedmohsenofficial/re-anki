@@ -1,0 +1,24 @@
+{{cloze:Text}}<br>
+{{Back Extra}}
+
+<a href="https://www.linkedin.com/in/mohsenofficial/" target="_blank" id="mohsen-signature" class="signature">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
