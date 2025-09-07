@@ -81,14 +81,14 @@ Traditional Anki templates are boring:
 
 ## 🎨 Template Collection
 
-| Template Name            | Original             | Best For                      | RTL Support | Special Features                        |
-| ------------------------ | ------------------- | ----------------------------- | ----------- | -------------------------------------- |
-| ⚡️ **Quick Recall**      | Basic               | Vocabulary, quick facts       | ✅          | Animated reveal + smooth transitions   |
-| 🎭 **Dual Perspective**  | Basic + Reverse     | Language pairs, concept links | ✅          | Two-way recall, mobile optimized       |
-| 👨🏼‍💻 **Coder**          | Type Answer (Coding)| Programming, syntax           | ❌          | Code-friendly formatting, terminal look|
-| ⌨️ **Active Recall**     | Type Answer         | Spelling, precise recall      | ✅          | Type-to-reveal with instant feedback   |
-| 🧩 **Puzzle Piece**      | Cloze Deletion      | Fill-in-the-blanks            | ✅          | Multiple cloze gaps with animations    |
-| 🗺️ **Visual Scan**       | Image Occlusion     | Maps, diagrams                | ✅          | Interactive masking, touch-ready       |
+| Template Name           | Original             | Best For                      | RTL Support | Special Features                        |
+| ----------------------- | -------------------- | ----------------------------- | ----------- | --------------------------------------- |
+| **Quick Recall** ⚡      | Basic                | Vocabulary, quick facts       | ✅           | Animated reveal + smooth transitions    |
+| **Dual Perspective** 🎭 | Basic + Reverse      | Language pairs, concept links | ✅           | Two-way recall, mobile optimized        |
+| **Coder** 👨🏼‍💻       | Type Answer (Coding) | Programming, syntax           | ❌           | Code-friendly formatting, terminal look |
+| **Active Recall** ⌨️    | Type Answer          | Spelling, precise recall      | ✅           | Type-to-reveal with instant feedback    |
+| **Puzzle Piece** 🧩     | Cloze Deletion       | Fill-in-the-blanks            | ✅           | Multiple cloze gaps with animations     |
+| **Visual Scan** 🗺️     | Image Occlusion      | Maps, diagrams                | ✅           | Interactive masking, touch-ready        |
 
 ---
 
