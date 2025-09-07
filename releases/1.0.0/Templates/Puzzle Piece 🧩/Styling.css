@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+body {
+    background-color: #000000 !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.card {
+    font-family: 'Comic Relief', cursive;
+    font-size: clamp(20px, 4.5vw, 28px);
+    text-align: ltr;
+    background: #0f172a;
+    border-radius: 13px;
+    padding: clamp(20px, 5vw, 40px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+    width: clamp(300px, 80vw, 90vw);
+    margin: 10px auto;
+    line-height: 1.6;
+    color: #38bdf8;
+    transition: transform 0.2s ease, background 0.5s ease;
+    animation: cardAppear 0.4s ease-out;
+}
+
+@keyframes cardAppear {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.front-text {
+    font-weight: 700;
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.back-text {
+    font-weight: 400;
+    color: #e2e8f0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #475569;
+    margin: 15px 0;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.03);
+    background: #1e293b;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+}
+
+span.cloze {
+    background-color: #34D399;
+    color: #000000;
+    font-weight: 700;
+    padding: 0 4px;
+    border-radius: 4px;
+    font-family: 'Comic Relief', cursive;
+    display: inline;
+    line-height: normal;
+    animation: clozeReveal 0.5s ease-out;
+}
+
+@keyframes clozeReveal {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.signature {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 20px 0;
+  color: #64748b;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signature:hover {
+  color: #38bdf8;
+}

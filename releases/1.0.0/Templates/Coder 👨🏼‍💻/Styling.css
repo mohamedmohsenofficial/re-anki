@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+body {
+  background: #000000 !important;
+  margin: 0;
+  padding: clamp(20px, 5vw, 40px);
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000 !important;
+  z-index: -999;
+}
+
+.card {
+  font-family: 'Fira Code', monospace;
+  font-size: clamp(20px, 4.5vw, 28px);
+  text-align: left;
+  background: #000000;
+  border-radius: 15px;
+  padding: clamp(20px, 5vw, 40px);
+  box-shadow: 0 4px 25px rgba(0,0,0,0.7);
+  width: clamp(300px, 80vw, 90vw);
+  margin: auto;
+  line-height: 1.4;
+  color: #38bdf8; 
+  transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
+  position: relative;
+  animation: cardEntrance 0.4s ease-out;
+  border: none;
+}
+
+@keyframes cardEntrance {
+  0% { opacity: 0; transform: scale(0.9) translateY(15px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #38bdf8, #34d399, #8b5cf6, #f59e0b);
+  background-size: 300% 300%;
+  border-radius: 17px;
+  z-index: -1;
+  opacity: 0;
+  animation: gradientFlow 6s ease infinite;
+  transition: opacity 0.4s ease;
+}
+
+.card:hover::before { opacity: 0.5; }
+
+@keyframes gradientFlow {
+  0%,100% { background-position:0% 50%; }
+  25% { background-position:100% 50%; }
+  50% { background-position:50% 100%; }
+  75% { background-position:50% 0%; }
+}
+
+.front {
+  font-family: 'Comic Relief', cursive;
+  font-weight: 700;
+  color: #569cd6;
+  animation: frontEntrance 0.5s ease-out;
+}
+
+@keyframes frontEntrance {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.back { 
+  font-family: 'Fira Code', monospace;
+  color: #d4d4d4; 
+  animation: mysticalReveal 0.5s ease-out; 
+}
+
+@keyframes mysticalReveal {
+  0% { opacity: 0; transform: translateY(20px) scale(0.95); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.answer-text {
+  font-family: 'Fira Code', monospace;
+  color: #dcdcaa;
+  font-weight: 500;
+  font-size: clamp(20px, 4.5vw, 28px);
+  animation: slideInRight 0.3s ease-out 0.2s both;
+  position: relative;
+}
+
+@keyframes slideInRight {
+  0% { transform: translateX(15px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #569cd6 20%, #007acc 40%, #dcdcaa 60%, #c586c0 80%, transparent);
+  background-size: 200% 100%;
+  margin: 15px 0;
+  animation: rainbowFlow 2s linear infinite, expandLine 0.3s ease-out both;
+  position: relative;
+}
+
+@keyframes rainbowFlow { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+@keyframes expandLine { 0% { width: 0; margin: 15px auto; } 100% { width: 100%; margin: 15px 0; } }
+
+.card:hover { transform: translateY(-8px) scale(1.03); background: #000000; box-shadow: 0 20px 40px rgba(0,0,0,0.8); }
+.card:active { transform: translateY(-4px) scale(1.01); }
+
+span.cloze {
+  font-family: 'Fira Code', monospace;
+  background-color: #007acc;
+  color: #000000;
+  font-weight: 700;
+  padding: 0 4px;
+  border-radius: 4px;
+  display: inline;
+  line-height: normal;
+}
+
+.typeBad { background: transparent !important; color: #f44747 !important; }
+.typeGood { background: transparent !important; color: #4ec9b0 !important; }
+.typeMissed { background: transparent !important; color: #dcdcaa !important; }
+
+#typeans {
+  background: transparent !important;
+  border: none !important;
+  padding: 5px !important;
+  margin: 25px 0 10px 0 !important;
+  animation: revealMagic 0.8s cubic-bezier(0.175,0.885,0.32,1.275) !important;
+  font-family: 'Fira Code', monospace;
+}
+
+@keyframes revealMagic {
+  0% { transform: translateY(30px) scale(0.9); opacity: 0; filter: blur(10px); }
+  100% { transform: translateY(0) scale(1); opacity: 1; filter: blur(0px); }
+}
+
+.note-field, .comment-field {
+  font-family: 'Comic Relief', monospace;
+  background: #0E0919;
+  border: 1px solid #3c3c3c;
+  border-radius: 12px;
+  padding: 22px 15px 15px 15px; 
+  margin: 30px 0 0 0; 
+  color: #d4d4d4;
+  font-size: clamp(14px, 3vw, 18px);
+  line-height: 1.5;
+  position: relative;
+  text-align: left;
+  opacity: 0;
+  transform: translateY(15px);
+  animation: noteAnimation 0.6s forwards;
+}
+
+.note-field::before, .comment-field::before {
+  content: 'Notes';
+  font-family: 'Comic Relief', monospace;
+  position: absolute;
+  top: -18px;
+  left: 15px;
+  background: #5c2a86;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #222;
+}
+
+.note-field:hover, .comment-field:hover {
+  background: #2a2a2a;
+  border-color: #555;
+  transform: translateY(-2px);
+}
+
+@keyframes noteAnimation {
+  0% { opacity: 0; transform: translateY(15px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.card.show-answer .front { color: #4ec9b0; }
+.card.show-answer .front-shown { color: #569cd6; }
+
+.signature {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 20px 0;
+  color: #64748b;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signature:hover {
+  color: #38bdf8;
+}
