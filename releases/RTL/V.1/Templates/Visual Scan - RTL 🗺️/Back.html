@@ -1,0 +1,61 @@
+{{#Header}}<div>{{Header}}</div>{{/Header}}
+<div style="display: none">{{cloze:Occlusion}}</div>
+<div id="err"></div>
+<div id="image-occlusion-container">
+    {{Image}}
+    <canvas id="image-occlusion-canvas"></canvas>
+</div>
+<script>
+try {
+    anki.imageOcclusion.setup();
+} catch (exc) {
+    document.getElementById("err").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;
+}
+</script>
+
+<div><button id="toggle">عرض الباقي 🐵</button></div>
+{{#Back Extra}}<div>{{Back Extra}}</div>{{/Back Extra}}
+
+<a href="https://www.linkedin.com/in/mohsenofficial/" target="_blank" id="mohsen-signature" class="signature">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+
+<script>
+  const toggleButton = document.getElementById('toggle');
+  if (toggleButton) {
+    let isOverview = true;
+
+    toggleButton.addEventListener('click', function() {
+      if (isOverview) {
+        setTimeout(() => {
+          toggleButton.textContent = 'إخفاء 🙈';
+        }, 150);
+        toggleButton.classList.add('hide-mode');
+      } else {
+        setTimeout(() => {
+          toggleButton.textContent = 'عرض الباقي 🐵';
+        }, 150);
+        toggleButton.classList.remove('hide-mode');
+      }
+      isOverview = !isOverview;
+    });
+  }
+</script>

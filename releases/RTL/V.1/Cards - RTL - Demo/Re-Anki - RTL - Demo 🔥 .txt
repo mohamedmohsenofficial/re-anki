@@ -1,0 +1,630 @@
+#separator:tab
+#html:true
+"<div class=""card"">
+  <div class=""front"">
+    لماذا يعد وجود عرض قيمة فريد أمرًا مهمًا للشركات الناشئة؟
+  </div>
+  <div class=""answer-input-container"">
+    
+  </div>
+</div>"	"<div class=""card"">
+  <div class=""back"">
+    <div class=""front"">لماذا يعد وجود عرض قيمة فريد أمرًا مهمًا للشركات الناشئة؟</div>
+    <hr id=""answer"">
+    <div class=""answer-text""></div>
+  </div>
+</div>
+
+<div class=""note-field"">هذه معلومات للعرض فقط قد تكون غير صحيحة</div>
+
+<script src=""https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js""></script>
+<script>
+function throwConfetti() {
+  confetti({
+    particleCount: 150,
+    spread: 100,
+    origin: { y: 0.6 },
+    colors: ['#38bdf8','#34d399','#f59e0b','#8b5cf6','#ef4444']
+  });
+}
+
+function sparkleEffect() {
+  for (let i = 0; i < 3; i++) {
+    setTimeout(() => {
+      confetti({
+        particleCount: 30,
+        spread: 45,
+        origin: { x: Math.random(), y: Math.random() * 0.5 },
+        colors: ['#38bdf8','#34d399'],
+        gravity: 0.8,
+        scalar: 0.6
+      });
+    }, i * 200);
+  }
+}
+
+setTimeout(() => {
+  throwConfetti();
+  setTimeout(sparkleEffect, 500);
+}, 300);
+</script>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'The template is disabled due to copyright removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+"
+"<div class=""card front"">
+  <div class=""front-text"">لماذا يعد وجود عرض قيمة فريد أمرًا مهمًا للشركات الناشئة؟</div>
+</div>"	"<div class=""card back"">
+  <div class=""front-text"">لماذا يعد وجود عرض قيمة فريد أمرًا مهمًا للشركات الناشئة؟</div>
+  <hr>
+  <div class=""back-text"">إن اقتراح القيمة القوي يوضح لماذا يجب على العملاء اختيار منتجك بدلاً من المنافسين، مما يساعدك على التميز وجذب المشترين المخلصين.</div>
+
+  
+  <div class=""note-field"">هذه معلومات للعرض فقط قد تكون غير صحيحة</div>
+  
+</div>
+
+<script src=""https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js""></script>
+<script>
+function throwConfetti() {
+  confetti({
+    particleCount: 80,
+    spread: 80,
+    origin: { y: 0.6 },
+    colors: ['#38bdf8','#34d399','#f59e0b','#8b5cf6','#ef4444'],
+    scalar: 0.9,
+    ticks: 200
+  });
+}
+
+function sparkleEffect() {
+  let bursts = 2;
+  for (let i = 0; i < bursts; i++) {
+    setTimeout(() => {
+      confetti({
+        particleCount: 20,
+        spread: 60,
+        origin: { x: Math.random(), y: Math.random() * 0.4 },
+        colors: ['#38bdf8','#34d399'],
+        gravity: 0.9,
+        scalar: 0.5
+      });
+    }, i * 250);
+  }
+}
+
+setTimeout(() => {
+  throwConfetti();
+  setTimeout(sparkleEffect, 400);
+}, 300);
+</script>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+"
+"<div class=""card"">
+  <div class=""front"">
+    لماذا يعد وجود عرض قيمة فريد أمرًا مهمًا للشركات الناشئة؟
+  </div>
+  <div class=""answer-input-container"">
+    
+  </div>
+</div>"	"<div class=""card"">
+  <div class=""back"">
+    <div class=""front"">لماذا يعد وجود عرض قيمة فريد أمرًا مهمًا للشركات الناشئة؟</div>
+    <hr id=""answer"">
+    <div class=""answer-text""></div>
+  </div>
+</div>
+
+<div class=""note-field"">هذه معلومات للعرض فقط قد تكون غير صحيحة</div>
+
+<script src=""https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js""></script>
+<script>
+function throwConfetti() {
+  confetti({
+    particleCount: 150,
+    spread: 100,
+    origin: { y: 0.6 },
+    colors: ['#38bdf8','#34d399','#f59e0b','#8b5cf6','#ef4444']
+  });
+}
+
+function sparkleEffect() {
+  for (let i = 0; i < 3; i++) {
+    setTimeout(() => {
+      confetti({
+        particleCount: 30,
+        spread: 45,
+        origin: { x: Math.random(), y: Math.random() * 0.5 },
+        colors: ['#38bdf8','#34d399'],
+        gravity: 0.8,
+        scalar: 0.6
+      });
+    }, i * 200);
+  }
+}
+
+setTimeout(() => {
+  throwConfetti();
+  setTimeout(sparkleEffect, 500);
+}, 300);
+</script>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'The template is disabled due to copyright removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+"
+"<div class=""card front"">
+  إستراتيجية تهدف إلى زيادة الوعي بالعلامة التجارية وجذب عملاء جدد.
+</div>
+"	"<div class=""card front"">
+  إستراتيجية تهدف إلى زيادة الوعي بالعلامة التجارية وجذب عملاء جدد.
+</div>
+
+
+<hr>
+
+<div class=""card back"">
+    حملة تسويقية
+</div>
+
+
+  <div class=""note-field"">هذه معلومات للعرض فقط قد تكون غير صحيحة</div>
+
+
+<script src=""https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js""></script>
+<script>
+function throwConfetti() {
+  confetti({
+    particleCount: 150,
+    spread: 100,
+    origin: { y: 0.6 },
+    colors: ['#38bdf8','#34d399','#f59e0b','#8b5cf6','#ef4444']
+  });
+}
+setTimeout(throwConfetti, 300);
+</script>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+"
+"
+<div class=""card back"">
+  حملة تسويقية
+</div>
+
+"	"
+<div class=""card back"">
+  حملة تسويقية
+</div>
+
+
+
+<hr>
+
+<div class=""card back"">
+    إستراتيجية تهدف إلى زيادة الوعي بالعلامة التجارية وجذب عملاء جدد.
+</div>
+
+
+  <div class=""note-field"">هذه معلومات للعرض فقط قد تكون غير صحيحة</div>
+
+
+<script src=""https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js""></script>
+<script>
+function throwConfetti() {
+  confetti({
+    particleCount: 150,
+    spread: 100,
+    origin: { y: 0.6 },
+    colors: ['#38bdf8','#34d399','#f59e0b','#8b5cf6','#ef4444']
+  });
+}
+setTimeout(throwConfetti, 300);
+</script>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+"
+"في استراتيجية <span class=""cloze"" data-cloze=""الأعمال&#x20;الحديثة"" data-ordinal=""1"">[...]</span>، تعتمد الشركات بشكل كبير على <span class=""cloze-inactive"" data-ordinal=""2"">أبحاث السوق</span> لفهم احتياجات العملاء وتوقع <span class=""cloze-inactive"" data-ordinal=""3"">الاتجاهات المستقبلية</span>."	"في استراتيجية <span class=""cloze"" data-ordinal=""1"">الأعمال الحديثة</span>، تعتمد الشركات بشكل كبير على <span class=""cloze-inactive"" data-ordinal=""2"">أبحاث السوق</span> لفهم احتياجات العملاء وتوقع <span class=""cloze-inactive"" data-ordinal=""3"">الاتجاهات المستقبلية</span>.<br>
+<u>هذه معلومات للعرض فقط قد تكون غير صحيحة</u>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+"
+"في استراتيجية <span class=""cloze-inactive"" data-ordinal=""1"">الأعمال الحديثة</span>، تعتمد الشركات بشكل كبير على <span class=""cloze-inactive"" data-ordinal=""2"">أبحاث السوق</span> لفهم احتياجات العملاء وتوقع <span class=""cloze"" data-cloze=""الاتجاهات&#x20;المستقبلية"" data-ordinal=""3"">[...]</span>."	"في استراتيجية <span class=""cloze-inactive"" data-ordinal=""1"">الأعمال الحديثة</span>، تعتمد الشركات بشكل كبير على <span class=""cloze-inactive"" data-ordinal=""2"">أبحاث السوق</span> لفهم احتياجات العملاء وتوقع <span class=""cloze"" data-ordinal=""3"">الاتجاهات المستقبلية</span>.<br>
+<u>هذه معلومات للعرض فقط قد تكون غير صحيحة</u>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+"
+"في استراتيجية <span class=""cloze-inactive"" data-ordinal=""1"">الأعمال الحديثة</span>، تعتمد الشركات بشكل كبير على <span class=""cloze"" data-cloze=""أبحاث&#x20;السوق"" data-ordinal=""2"">[...]</span> لفهم احتياجات العملاء وتوقع <span class=""cloze-inactive"" data-ordinal=""3"">الاتجاهات المستقبلية</span>."	"في استراتيجية <span class=""cloze-inactive"" data-ordinal=""1"">الأعمال الحديثة</span>، تعتمد الشركات بشكل كبير على <span class=""cloze"" data-ordinal=""2"">أبحاث السوق</span> لفهم احتياجات العملاء وتوقع <span class=""cloze-inactive"" data-ordinal=""3"">الاتجاهات المستقبلية</span>.<br>
+<u>هذه معلومات للعرض فقط قد تكون غير صحيحة</u>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+"
+"<div>في الشكل المقابل : أمامك شكل يوضح مجموعة من الزوايا تبدأ من 10° حتى 360°، لكن بعض هذه الزوايا تم إخفاؤها.<br><br>المطلوب هو إيجاد القيم المجهولة باللون الاحمر.</div>
+<div style=""display: none""><div class=""cloze-inactive"" data-ordinal=""1"" data-shape=""ellipse"" data-left="".0512"" data-top="".0135"" data-rx="".0646"" data-ry="".0621"" data-occludeInactive=""1"" ></div><br><div class=""cloze-inactive"" data-ordinal=""2"" data-shape=""ellipse"" data-left="".5327"" data-top="".7366"" data-rx="".0508"" data-ry="".049"" data-occludeInactive=""1"" ></div><br><div class=""cloze"" data-ordinal=""3"" data-shape=""ellipse"" data-left="".6782"" data-top="".2208"" data-rx="".0491"" data-ry="".0449"" data-occludeInactive=""1"" ></div><br></div>
+<div id=""err""></div>
+<div id=""image-occlusion-container"">
+    <img src=""1000960148.jpg"">
+    <canvas id=""image-occlusion-canvas""></canvas>
+</div>
+<script>
+try {
+    anki.imageOcclusion.setup();
+} catch (exc) {
+    document.getElementById(""err"").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;
+}
+</script>"	"<div>في الشكل المقابل : أمامك شكل يوضح مجموعة من الزوايا تبدأ من 10° حتى 360°، لكن بعض هذه الزوايا تم إخفاؤها.<br><br>المطلوب هو إيجاد القيم المجهولة باللون الاحمر.</div>
+<div style=""display: none""><div class=""cloze-inactive"" data-ordinal=""1"" data-shape=""ellipse"" data-left="".0512"" data-top="".0135"" data-rx="".0646"" data-ry="".0621"" data-occludeInactive=""1"" ></div><br><div class=""cloze-inactive"" data-ordinal=""2"" data-shape=""ellipse"" data-left="".5327"" data-top="".7366"" data-rx="".0508"" data-ry="".049"" data-occludeInactive=""1"" ></div><br><div class=""cloze-highlight"" data-ordinal=""3"" data-shape=""ellipse"" data-left="".6782"" data-top="".2208"" data-rx="".0491"" data-ry="".0449"" data-occludeInactive=""1"" ></div><br></div>
+<div id=""err""></div>
+<div id=""image-occlusion-container"">
+    <img src=""1000960148.jpg"">
+    <canvas id=""image-occlusion-canvas""></canvas>
+</div>
+<script>
+try {
+    anki.imageOcclusion.setup();
+} catch (exc) {
+    document.getElementById(""err"").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;
+}
+</script>
+
+<div><button id=""toggle"">عرض الباقي 🐵</button></div>
+<div>المتممة للـ 15° هي 75° بينما المكملة لها 165°. أما الزاوية المجاورة لـ 45° بحيث يكون مجموعهما 180° فهي 135°. وبالنسبة للزاوية المقابلة لـ 120° فإنها تساوي 120° أيضًا لأن الزوايا المتقابلة بالرأس متساوية. وأخيرًا، الزوايا حول النقطة تعطي 360°، فإذا جمعنا 180° و270° نحصل على 450° أي أكبر من 360°، لذا الزاوية الصحيحة التي تكمل الشكل هي 90°. ومجموع كل الزوايا في الشكل من 10° حتى 360° يساوي 1365°.</div>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+
+<script>
+  const toggleButton = document.getElementById('toggle');
+  if (toggleButton) {
+    let isOverview = true; // Initial state is ""Overview""
+
+    toggleButton.addEventListener('click', function() {
+      // This script only changes the button's appearance.
+      // Anki's own script handles the actual showing/hiding of masks.
+      if (isOverview) {
+        // Switch to ""Hide"" state with a slight delay for animation
+        setTimeout(() => {
+          toggleButton.textContent = 'إخفاء 🙈';
+        }, 150);
+        toggleButton.classList.add('hide-mode');
+      } else {
+        // Switch back to ""Overview"" state
+        setTimeout(() => {
+          toggleButton.textContent = 'عرض الباقي 🐵';
+        }, 150);
+        toggleButton.classList.remove('hide-mode');
+      }
+      isOverview = !isOverview; // Flip the state for the next click
+    });
+  }
+</script>"
+"<div>في الشكل المقابل : أمامك شكل يوضح مجموعة من الزوايا تبدأ من 10° حتى 360°، لكن بعض هذه الزوايا تم إخفاؤها.<br><br>المطلوب هو إيجاد القيم المجهولة باللون الاحمر.</div>
+<div style=""display: none""><div class=""cloze"" data-ordinal=""1"" data-shape=""ellipse"" data-left="".0512"" data-top="".0135"" data-rx="".0646"" data-ry="".0621"" data-occludeInactive=""1"" ></div><br><div class=""cloze-inactive"" data-ordinal=""2"" data-shape=""ellipse"" data-left="".5327"" data-top="".7366"" data-rx="".0508"" data-ry="".049"" data-occludeInactive=""1"" ></div><br><div class=""cloze-inactive"" data-ordinal=""3"" data-shape=""ellipse"" data-left="".6782"" data-top="".2208"" data-rx="".0491"" data-ry="".0449"" data-occludeInactive=""1"" ></div><br></div>
+<div id=""err""></div>
+<div id=""image-occlusion-container"">
+    <img src=""1000960148.jpg"">
+    <canvas id=""image-occlusion-canvas""></canvas>
+</div>
+<script>
+try {
+    anki.imageOcclusion.setup();
+} catch (exc) {
+    document.getElementById(""err"").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;
+}
+</script>"	"<div>في الشكل المقابل : أمامك شكل يوضح مجموعة من الزوايا تبدأ من 10° حتى 360°، لكن بعض هذه الزوايا تم إخفاؤها.<br><br>المطلوب هو إيجاد القيم المجهولة باللون الاحمر.</div>
+<div style=""display: none""><div class=""cloze-highlight"" data-ordinal=""1"" data-shape=""ellipse"" data-left="".0512"" data-top="".0135"" data-rx="".0646"" data-ry="".0621"" data-occludeInactive=""1"" ></div><br><div class=""cloze-inactive"" data-ordinal=""2"" data-shape=""ellipse"" data-left="".5327"" data-top="".7366"" data-rx="".0508"" data-ry="".049"" data-occludeInactive=""1"" ></div><br><div class=""cloze-inactive"" data-ordinal=""3"" data-shape=""ellipse"" data-left="".6782"" data-top="".2208"" data-rx="".0491"" data-ry="".0449"" data-occludeInactive=""1"" ></div><br></div>
+<div id=""err""></div>
+<div id=""image-occlusion-container"">
+    <img src=""1000960148.jpg"">
+    <canvas id=""image-occlusion-canvas""></canvas>
+</div>
+<script>
+try {
+    anki.imageOcclusion.setup();
+} catch (exc) {
+    document.getElementById(""err"").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;
+}
+</script>
+
+<div><button id=""toggle"">عرض الباقي 🐵</button></div>
+<div>المتممة للـ 15° هي 75° بينما المكملة لها 165°. أما الزاوية المجاورة لـ 45° بحيث يكون مجموعهما 180° فهي 135°. وبالنسبة للزاوية المقابلة لـ 120° فإنها تساوي 120° أيضًا لأن الزوايا المتقابلة بالرأس متساوية. وأخيرًا، الزوايا حول النقطة تعطي 360°، فإذا جمعنا 180° و270° نحصل على 450° أي أكبر من 360°، لذا الزاوية الصحيحة التي تكمل الشكل هي 90°. ومجموع كل الزوايا في الشكل من 10° حتى 360° يساوي 1365°.</div>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+
+<script>
+  const toggleButton = document.getElementById('toggle');
+  if (toggleButton) {
+    let isOverview = true; // Initial state is ""Overview""
+
+    toggleButton.addEventListener('click', function() {
+      // This script only changes the button's appearance.
+      // Anki's own script handles the actual showing/hiding of masks.
+      if (isOverview) {
+        // Switch to ""Hide"" state with a slight delay for animation
+        setTimeout(() => {
+          toggleButton.textContent = 'إخفاء 🙈';
+        }, 150);
+        toggleButton.classList.add('hide-mode');
+      } else {
+        // Switch back to ""Overview"" state
+        setTimeout(() => {
+          toggleButton.textContent = 'عرض الباقي 🐵';
+        }, 150);
+        toggleButton.classList.remove('hide-mode');
+      }
+      isOverview = !isOverview; // Flip the state for the next click
+    });
+  }
+</script>"
+"<div>في الشكل المقابل : أمامك شكل يوضح مجموعة من الزوايا تبدأ من 10° حتى 360°، لكن بعض هذه الزوايا تم إخفاؤها.<br><br>المطلوب هو إيجاد القيم المجهولة باللون الاحمر.</div>
+<div style=""display: none""><div class=""cloze-inactive"" data-ordinal=""1"" data-shape=""ellipse"" data-left="".0512"" data-top="".0135"" data-rx="".0646"" data-ry="".0621"" data-occludeInactive=""1"" ></div><br><div class=""cloze"" data-ordinal=""2"" data-shape=""ellipse"" data-left="".5327"" data-top="".7366"" data-rx="".0508"" data-ry="".049"" data-occludeInactive=""1"" ></div><br><div class=""cloze-inactive"" data-ordinal=""3"" data-shape=""ellipse"" data-left="".6782"" data-top="".2208"" data-rx="".0491"" data-ry="".0449"" data-occludeInactive=""1"" ></div><br></div>
+<div id=""err""></div>
+<div id=""image-occlusion-container"">
+    <img src=""1000960148.jpg"">
+    <canvas id=""image-occlusion-canvas""></canvas>
+</div>
+<script>
+try {
+    anki.imageOcclusion.setup();
+} catch (exc) {
+    document.getElementById(""err"").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;
+}
+</script>"	"<div>في الشكل المقابل : أمامك شكل يوضح مجموعة من الزوايا تبدأ من 10° حتى 360°، لكن بعض هذه الزوايا تم إخفاؤها.<br><br>المطلوب هو إيجاد القيم المجهولة باللون الاحمر.</div>
+<div style=""display: none""><div class=""cloze-inactive"" data-ordinal=""1"" data-shape=""ellipse"" data-left="".0512"" data-top="".0135"" data-rx="".0646"" data-ry="".0621"" data-occludeInactive=""1"" ></div><br><div class=""cloze-highlight"" data-ordinal=""2"" data-shape=""ellipse"" data-left="".5327"" data-top="".7366"" data-rx="".0508"" data-ry="".049"" data-occludeInactive=""1"" ></div><br><div class=""cloze-inactive"" data-ordinal=""3"" data-shape=""ellipse"" data-left="".6782"" data-top="".2208"" data-rx="".0491"" data-ry="".0449"" data-occludeInactive=""1"" ></div><br></div>
+<div id=""err""></div>
+<div id=""image-occlusion-container"">
+    <img src=""1000960148.jpg"">
+    <canvas id=""image-occlusion-canvas""></canvas>
+</div>
+<script>
+try {
+    anki.imageOcclusion.setup();
+} catch (exc) {
+    document.getElementById(""err"").innerHTML = `Error loading image occlusion. Is your Anki version up to date?<br><br>${exc}`;
+}
+</script>
+
+<div><button id=""toggle"">عرض الباقي 🐵</button></div>
+<div>المتممة للـ 15° هي 75° بينما المكملة لها 165°. أما الزاوية المجاورة لـ 45° بحيث يكون مجموعهما 180° فهي 135°. وبالنسبة للزاوية المقابلة لـ 120° فإنها تساوي 120° أيضًا لأن الزوايا المتقابلة بالرأس متساوية. وأخيرًا، الزوايا حول النقطة تعطي 360°، فإذا جمعنا 180° و270° نحصل على 450° أي أكبر من 360°، لذا الزاوية الصحيحة التي تكمل الشكل هي 90°. ومجموع كل الزوايا في الشكل من 10° حتى 360° يساوي 1365°.</div>
+
+<a href=""https://www.linkedin.com/in/mohsenofficial/"" target=""_blank"" id=""mohsen-signature"" class=""signature"">    By Mohsen 💙
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const signatureElement = document.getElementById('mohsen-signature');
+  if (!signatureElement) {
+    const cardElement = document.querySelector('.card');
+    if (cardElement) {
+      cardElement.style.display = 'none';
+    }
+    const warningMsg = document.createElement('div');
+    warningMsg.textContent = 'Template disabled due to attribution removal.';
+    warningMsg.style.color = 'red';
+    warningMsg.style.textAlign = 'center';
+    warningMsg.style.fontSize = '20px';
+    warningMsg.style.marginTop = '50px';
+    document.body.appendChild(warningMsg);
+  }
+});
+</script>
+
+<script>
+  const toggleButton = document.getElementById('toggle');
+  if (toggleButton) {
+    let isOverview = true; // Initial state is ""Overview""
+
+    toggleButton.addEventListener('click', function() {
+      // This script only changes the button's appearance.
+      // Anki's own script handles the actual showing/hiding of masks.
+      if (isOverview) {
+        // Switch to ""Hide"" state with a slight delay for animation
+        setTimeout(() => {
+          toggleButton.textContent = 'إخفاء 🙈';
+        }, 150);
+        toggleButton.classList.add('hide-mode');
+      } else {
+        // Switch back to ""Overview"" state
+        setTimeout(() => {
+          toggleButton.textContent = 'عرض الباقي 🐵';
+        }, 150);
+        toggleButton.classList.remove('hide-mode');
+      }
+      isOverview = !isOverview; // Flip the state for the next click
+    });
+  }
+</script>"
